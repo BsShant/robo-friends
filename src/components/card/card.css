@@ -1,0 +1,27 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: slateblue;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border-radius: 60px;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    transition: all 500ms ease;
+
+}
+.card:hover {
+    transform: rotate3d(4, 4, 1, 30deg);
+}
+.card-name{
+    padding: 10px 0;
+}
+h1{
+    margin-bottom: 0;
+}
+h3{
+    margin-top: 5px;
+}

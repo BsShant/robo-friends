@@ -1,0 +1,8 @@
+
+.list{
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  grid-gap: 50px;
+  padding: 120px 0;
+  }
+  
